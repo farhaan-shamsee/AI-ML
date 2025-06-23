@@ -95,5 +95,27 @@ Correlation doest not imply causation. It only indicates that there is a relatio
       1. -0.2: it shows weak negative correlation
 
 
+### Workflow of ML
+
+* what it means to train a model
+
+![image](https://github.com/user-attachments/assets/92dda6cf-0706-407a-b8da-e548bf0c595a)
+
+1. Training accuracy: how well the model performs on the training data
+2. Testing accuracy: how well the model performs on the testing data
+3. Once we are confident that the model is performing well, we can deploy it to production.
+
+
+#### Pairplot
+
+![image](https://github.com/user-attachments/assets/0a99cfb7-9458-4fa1-ace7-d187eb9db7ad)
+
+1. Pairplot is a way to visualize the relationship between multiple variables in a dataset.
+2. It creates a grid of scatter plots, where each scatter plot shows the relationship between two variables.
+3. It is useful for exploring the relationships between multiple variables in a dataset.
+4. It can also be used to identify patterns and trends in the data.
+5. Non diagonal are the scatter plots.
+
+
 
 
