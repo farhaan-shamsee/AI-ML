@@ -56,3 +56,44 @@ cyber security
       1. able to look at a distribution of two variables
       2. For example: country wise per capita income
    8. transform skewness: transform the data to make it more normal distribution
+  
+### Examples
+
+1. google gorilla blunder
+   1. google gorilla blunder: google image search for "gorilla" returned images of humans.
+   2. original data curation was wrong
+   3. reason: the model was trained on a dataset that had a lot of images of humans of a specific skin tone
+
+### data labelling
+
+1. data labelling: process of adding labels to data
+2. scale.ai, appen
+
+### pearson correlation coefficient
+
+Correlation is a statistical measure that describes the strength and direction of a relationship between two variables. It is represented by a value between -1 and 1.
+
+Correlation doest not imply causation. It only indicates that there is a relationship between two variables.
+
+![image](https://github.com/user-attachments/assets/b5f0db4c-e0c5-4b06-9ae8-f0acde6956e5)
+
+
+1. Direction: +ve or -ve
+   1. +ve: as one variable increases, the other variable also increases
+   2. -ve: as one variable increases, the other variable decreases
+2. Magnitude: how strong the relationship is
+   1. strong relation between temp and ice cream sales, this is the inference.
+   2. closer the points stronger the correlation
+   3. more spread out the points weaker the correlation. for example in spending and income.
+   4. For example: ice cream sales and temperature
+      1. 0.9: it shows strong positive correlation
+   5. For example: temp and jacket sales
+      1. -0.9: it shows strong negative correlation
+   6. For example: temp and ice cream sales
+      1. 0.4: it shows weak positive correlation
+   7. For example: age and health
+      1. -0.2: it shows weak negative correlation
+
+
+
+
