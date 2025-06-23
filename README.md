@@ -184,5 +184,9 @@ the best fit line might not always pass through the points, but it should be as 
 
 ![image](https://github.com/user-attachments/assets/3b6e45a1-4958-47fa-8633-2b7e7339291c)
 
-
-
+* RandomForestRegressor
+  * it is an ensemble method that combines multiple decision trees to make predictions
+  * it is used for regression tasks
+  * it can handle non-linear relationships between the features and the target variable
+  * it can also handle missing values and categorical variables
+  * it is less prone to overfitting than a single decision tree.
