@@ -172,7 +172,6 @@ print(model2.score(x_test,y_test))
   * it has low bias and low variance
   * it can be identified by looking at the training and testing accuracy
   
+* The training accuracy and testing accuracy should be close to each other. For example, if the training accuracy is 0.9 and the testing accuracy is 0.8, it is a good fit model. Like the system is behaving on both training and testing data. But if training was low and testing is high, it is an underfit model. If training is high and testing is low, it is an overfit model.
 
-
-
-
+Example: if we did not learn anything but performed well in tests, then it is dangerous.  Then it means we memorized the training data and did not learn anything. 
