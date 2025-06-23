@@ -174,4 +174,15 @@ print(model2.score(x_test,y_test))
   
 * The training accuracy and testing accuracy should be close to each other. For example, if the training accuracy is 0.9 and the testing accuracy is 0.8, it is a good fit model. Like the system is behaving on both training and testing data. But if training was low and testing is high, it is an underfit model. If training is high and testing is low, it is an overfit model.
 
-Example: if we did not learn anything but performed well in tests, then it is dangerous.  Then it means we memorized the training data and did not learn anything. 
+Example: if we did not learn anything but performed well in tests, then it is dangerous.  Then it means we memorized the training data and did not learn anything.
+
+
+### Regression Learning
+
+what is the line that best fits the points in the scatter plot?
+the best fit line might not always pass through the points, but it should be as close to the points as possible.
+
+![image](https://github.com/user-attachments/assets/3b6e45a1-4958-47fa-8633-2b7e7339291c)
+
+
+
