@@ -132,3 +132,47 @@ Correlation doest not imply causation. It only indicates that there is a relatio
    1. If two variables are not correlated, it can be seen in the pairplot as a scatter of points.
 
 
+```pyton
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2,random_state=1)
+from sklearn.linear_model import LinearRegression
+model2 = LinearRegression() 
+model2.fit(x_train, y_train)
+print("Model Parameters")
+print(model2.coef_)
+print(model2.intercept_)
+#With TV, Radio, Newspaper we get a more overfit model
+print("Training R2")
+print(model2.score(x_train,y_train))
+print("Testing R2")
+print(model2.score(x_test,y_test))
+```
+
+
+* Feature selection
+* Feature engineering
+
+### Models
+
+![image](https://github.com/user-attachments/assets/60bc7cf8-2fee-475c-8d3e-7af0e59ed47a)
+
+* Overfit model
+  * model is too complex and fits the training data too well
+  * it performs poorly on the testing data
+  * it has high variance and low bias
+  * it can be identified by looking at the training and testing accuracy
+* Underfit model
+  * model is too simple and does not fit the training data well
+  * it performs poorly on both training and testing data
+  * it has high bias and low variance
+  * it can be identified by looking at the training and testing accuracy
+* Good fit model
+  * model is just right and fits the training data well
+  * it performs well on both training and testing data
+  * it has low bias and low variance
+  * it can be identified by looking at the training and testing accuracy
+  
+
+
+
+
