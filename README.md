@@ -110,6 +110,9 @@ Correlation doest not imply causation. It only indicates that there is a relatio
 
 ![image](https://github.com/user-attachments/assets/0a99cfb7-9458-4fa1-ace7-d187eb9db7ad)
 
+![image](https://github.com/user-attachments/assets/b36e44b2-be1a-4ae5-a2d9-014959e67971)
+
+
 1. Pairplot is a way to visualize the relationship between multiple variables in a dataset.
 2. It creates a grid of scatter plots, where each scatter plot shows the relationship between two variables.
 3. It is useful for exploring the relationships between multiple variables in a dataset.
@@ -120,6 +123,12 @@ Correlation doest not imply causation. It only indicates that there is a relatio
    2. Tv has best correlation with sales.
 7. Pairplot can also use to identify outliers in the data.
 8. Diagonals can be studied to find skewness of the data.
-
+9. **Multi collinearity**
+   1. When two or more independent variables(features/inputs) are highly correlated with each other, it can cause problems in the model.
+   1. It can lead to overfitting and make the model less interpretable.
+   1. It can also lead to multicollinearity, which can cause problems in the model.
+   1. Pairplot can be used to identify multicollinearity in the data.
+   1. If two variables are highly correlated, it can be seen in the pairplot as a straight line.
+   1. If two variables are not correlated, it can be seen in the pairplot as a scatter of points.
 
 
