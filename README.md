@@ -115,7 +115,11 @@ Correlation doest not imply causation. It only indicates that there is a relatio
 3. It is useful for exploring the relationships between multiple variables in a dataset.
 4. It can also be used to identify patterns and trends in the data.
 5. Non diagonal are the scatter plots.
-
+6. Explain diagram:
+   1. Out of the 3 inputs which are the inputs are strongest predictor of sales. TV is best, Radio is second best, newspaper is worst.
+   2. Tv has best correlation with sales.
+7. Pairplot can also use to identify outliers in the data.
+8. Diagonals can be studied to find skewness of the data.
 
 
 
