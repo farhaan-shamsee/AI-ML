@@ -190,3 +190,10 @@ the best fit line might not always pass through the points, but it should be as 
   * it can handle non-linear relationships between the features and the target variable
   * it can also handle missing values and categorical variables
   * it is less prone to overfitting than a single decision tree.
+ 
+## Day 2
+
+### Data science lifecycle
+
+![image](https://github.com/user-attachments/assets/dbea31bd-4d7d-4477-b43a-6dd9712dd89b)
+
