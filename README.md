@@ -217,3 +217,5 @@ We have data we buld algorithm, nbext time wwe have new data, we can predict.
 
 * identify mistakes the model is making
 * false positives and false negatives
+
+![image](https://github.com/user-attachments/assets/476aa635-c9b7-444d-9fb1-c6972f9ae414)
