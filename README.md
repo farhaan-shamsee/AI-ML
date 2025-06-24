@@ -2,7 +2,7 @@
 
 ## Day 1
 
-* supervised learning: 
+* supervised learning
 
 ### Use cases
 
@@ -18,7 +18,6 @@
 cyber security
 
 ![ai-ml-venn-diagram](https://github.com/user-attachments/assets/5e6cd873-17a4-4b51-99f9-bc275dfc68ef)
-
 
 ### Mean and Median
 
@@ -94,7 +93,6 @@ Correlation doest not imply causation. It only indicates that there is a relatio
    7. For example: age and health
       1. -0.2: it shows weak negative correlation
 
-
 ### Workflow of ML
 
 * what it means to train a model
@@ -105,13 +103,11 @@ Correlation doest not imply causation. It only indicates that there is a relatio
 2. Testing accuracy: how well the model performs on the testing data
 3. Once we are confident that the model is performing well, we can deploy it to production.
 
-
 #### Pairplot
 
 ![image](https://github.com/user-attachments/assets/0a99cfb7-9458-4fa1-ace7-d187eb9db7ad)
 
 ![image](https://github.com/user-attachments/assets/b36e44b2-be1a-4ae5-a2d9-014959e67971)
-
 
 1. Pairplot is a way to visualize the relationship between multiple variables in a dataset.
 2. It creates a grid of scatter plots, where each scatter plot shows the relationship between two variables.
@@ -131,7 +127,6 @@ Correlation doest not imply causation. It only indicates that there is a relatio
    1. If two variables are highly correlated, it can be seen in the pairplot as a straight line.
    1. If two variables are not correlated, it can be seen in the pairplot as a scatter of points.
 
-
 ```pyton
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2,random_state=1)
@@ -147,7 +142,6 @@ print(model2.score(x_train,y_train))
 print("Testing R2")
 print(model2.score(x_test,y_test))
 ```
-
 
 * Feature selection
 * Feature engineering
@@ -176,7 +170,6 @@ print(model2.score(x_test,y_test))
 
 Example: if we did not learn anything but performed well in tests, then it is dangerous.  Then it means we memorized the training data and did not learn anything.
 
-
 ### Regression Learning
 
 what is the line that best fits the points in the scatter plot?
@@ -190,7 +183,7 @@ the best fit line might not always pass through the points, but it should be as 
   * it can handle non-linear relationships between the features and the target variable
   * it can also handle missing values and categorical variables
   * it is less prone to overfitting than a single decision tree.
- 
+
 ## Day 2
 
 ### Data science lifecycle
