@@ -190,7 +190,7 @@ the best fit line might not always pass through the points, but it should be as 
 
 ![image](https://github.com/user-attachments/assets/dbea31bd-4d7d-4477-b43a-6dd9712dd89b)
 
-crossvalidation accuracy
+cross-validation accuracy
 
 1. Cross-validation: it is a technique used to evaluate the performance of a model by splitting the data into multiple subsets and training the model on different subsets of the data.
 
@@ -201,7 +201,8 @@ Classification vs regression: regression is used to predict a continuous value, 
 * in classification, we are trying to best separate the classes. In regression we try to best fit the line.
 * model: decision boundary or decision surface.
 
-
 We have data we buld algorithm, nbext time wwe have new data, we can predict.
 
 ![image](https://github.com/user-attachments/assets/df096fdb-e117-45c5-9c9e-b97a8468da51)
+
+* if road is more bumpy car goes slow, if road is smooth car goes fast.
