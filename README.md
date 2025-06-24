@@ -204,9 +204,4 @@ Classification vs regression: regression is used to predict a continuous value, 
 
 We have data we buld algorithm, nbext time wwe have new data, we can predict.
 
-![image](https://github.com/user-attachments/assets/d362abfa-cae9-4ff4-a468-b28b47d976ad)
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/df096fdb-e117-45c5-9c9e-b97a8468da51)
