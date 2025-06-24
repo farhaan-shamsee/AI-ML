@@ -209,6 +209,6 @@ We have data we buld algorithm, nbext time wwe have new data, we can predict.
 
 ![image](https://github.com/user-attachments/assets/aca6efbd-fe55-434d-bce9-3ea03ba85d99)
 
-* in underfitting: we are not learning anything, Degree 1 is underfitting, it is a straight line, it is not able to capture the data points.
-* in overfitting: we are learning too much, Degree 5 is overfitting, it is a curve that passes through all the data points, it is too complex and fits the training data too well.
-* in good fit: we are learning just right, Degree 3 is a good fit, it is a curve that fits the data points well but does not pass through all the data points, it is not too complex and not too simple.
+* in **underfitting**: we are not learning anything, Degree 1 is underfitting, it is a straight line, it is not able to capture the data points.
+* in **overfitting**: we are learning too much, Degree 5 is overfitting, it is a curve that passes through all the data points, it is too complex and fits the training data too well.
+* in **good fit**: we are learning just right, Degree 3 is a good fit, it is a curve that fits the data points well but does not pass through all the data points, it is not too complex and not too simple.
